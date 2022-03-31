@@ -1,0 +1,42 @@
+// SASS Variables
+
+$color-primary:hsl(193, 38%, 86%);
+$color-secondary:hsl(150, 100%, 66%);
+
+$color-grayish-blue:hsl(217, 19%, 38%);
+$color-grayish-blue-dark:hsl(217, 19%, 24%);
+$color-dark-blue:hsl(218, 23%, 16%);
+
+
+
+// Media Queries
+
+$bp-4k:87.5em; //1400 px
+$bp-largest:75em; //1200 px
+$bp-large:68.75em; //1100 px
+$bp-medium: 56.25em; // 900 px
+$bp-small: 37.5em; // 600 px
+$bp-smallest: 31.25em; // 500 px
+$bp-micro: 25em; // 400 px
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Manrope',sans-serif;
+    scroll-behavior: smooth;
+    color: $color-primary;
+    background-color: $color-dark-blue;
+}
